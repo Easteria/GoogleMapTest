@@ -111,7 +111,6 @@ class SearchResultFragment(
                                     .show()
                             }
 
-                            // 그냥 에러나는거 보여주기 runOnUiThread를 위한
                             requireActivity().runOnUiThread {
                                 slAdapter.notifyDataSetChanged()
                             }
