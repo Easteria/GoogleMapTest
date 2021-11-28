@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback, SearchView.OnQuery
     companion object {
         private const val TAG = "MainActivity"
         const val SERVICE_KEY =
-            ""
+            "" //공공 api로 받은 SERVICE KEY를 입력해주세요
     }
 
     var lastSearchedTime = 0
